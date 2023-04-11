@@ -129,6 +129,18 @@ main {
     border-radius: 10px;
 }
 
+.casting_actors_actor:hover {
+    color: white;
+    background-color: grey;
+}
+
+.casting_actors_actor a {
+    text-decoration: none;
+}
+
+.casting_actors_actor a:hover {
+    color: white;
+}
 footer {
     background-color: rgb(238, 238, 238);
     padding: 1.5rem 0 5rem;
