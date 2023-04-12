@@ -59,7 +59,8 @@ main {
 }
 
 .presentation_title,
-.casting_title {
+.casting_title,
+.images_title {
     font-size: 1.3rem;
 }
 
@@ -141,6 +142,38 @@ main {
 .casting_actors_actor a:hover {
     color: white;
 }
+
+.images {
+    margin-top: 1rem;
+}
+
+.images_card {
+    width: 15vw;
+    text-align: center;
+    margin: 1rem auto;
+    padding: 1rem;
+    border: 1px solid rgb(238, 238, 238);
+}
+
+.images_card_title {
+    color: rgb(150, 32, 28);
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.images_card_img {
+    padding: 0.5rem;
+}
+
+.images_card_img img {
+    width: 100%;
+    height: auto;
+}
+
+.images_card_description {
+    font-size: 0.8rem;
+}
+
 footer {
     background-color: rgb(238, 238, 238);
     padding: 1.5rem 0 5rem;
